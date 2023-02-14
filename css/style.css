@@ -1,0 +1,160 @@
+body {
+background-color:#F0FFF0;
+}
+
+header {
+background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+font-family: "Times New Roman", Georgia, Serif;
+font-stretch: extra-expanded;
+font-style: oblique;
+text-align: center;
+}
+
+caption {
+font-family: Luminari;
+color: #fccb17;
+}
+
+table {
+font-size: 22px;
+margin-left: auto;
+margin-right: auto
+}
+
+th {
+  font-size:20px;
+  font-weight: normal;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid white;
+  color: #039;
+  padding: 8px;
+}
+td {
+  background: #e8edff;
+  border-bottom: 1px solid white;
+  color: #669;
+  border-top: 1px solid transparent;
+  padding: 8px;
+}
+tr:hover td {
+  background: #ccddff;
+}
+
+#block1 {
+margin:10px;
+padding: 30px;
+}
+
+#image {
+float:left;
+margin-right: 20px;
+width:300px;
+height:200px;
+class:leftimg;
+}
+
+.leftimg {
+float:left;
+margin: 7px 7px 0;
+}
+
+#span1 {
+display: inline-block;
+margin: 15px;
+padding: 20px 30px;
+cursor: pointer;
+border-radius: 10px;
+font-size: 22px;
+color: #1c4163;
+transition: .2s linear;
+}
+
+.span-shadow span:nth-child(1) {background:#b9c9fe}
+.span-shadow span:nth-child(1):hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #1c4163;}
+
+#block3 {
+float: left;
+display:block;
+width: 500px;
+height: 300px;
+margin: 5px;
+margin-left: 50px;
+padding: 20px 30px;
+cursor: pointer;
+border-radius: 10px;
+font-size: 22px;
+color: #1c4163;
+background:#b9c9fe
+}
+
+#block4 {
+float: right;
+display:block;
+width: 500px;
+height: 300px;
+margin: 5px;
+margin-right: 50px;
+padding: 20px 30px;
+cursor: pointer;
+border-radius: 10px;
+font-size: 22px;
+color: #1c4163;
+background:#b9c9fe
+}
+
+.btn {
+display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:#fff ;
+  background-color: #1c4163;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn1:hover {background-color: #4B0082}
+
+.btn1:active {
+  background-color:#4B0082;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.now {
+text-align: center;
+font-weight: bold;
+}
+
+#temp {
+font-size:34px;
+line-height:0.1;
+}
+
+#block5 {
+float: left;
+display:block;
+height: 75px;
+vertical-align: middle
+margin: 5px;
+margin-left: 50px;
+padding: 15px 30px;
+cursor: pointer;
+border-radius: 10px;
+font-size: 22px;
+color:#b9c9fe;
+background:#1c4163;
+}
+#inf {
+color:black;
+  
+}
+
+
+
